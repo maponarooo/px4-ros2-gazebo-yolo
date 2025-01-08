@@ -5,17 +5,10 @@ Aerial Object Detection using a Drone with PX4 Autopilot and ROS 2. PX4 SITL and
 https://github.com/monemati/PX4-ROS2-Gazebo-YOLOv8/assets/58460889/fab19f49-0be6-43ea-a4e4-8e9bc8d59af9
 
 ## Installation
-### Create a virtual environment
-```commandline
-# create
-python -m venv ~/px4-venv
 
-# activate
-source ~/px4-venv/bin/activate
-```
 ### Clone repository
 ```commandline
-git clone https://github.com/monemati/PX4-ROS2-Gazebo-YOLOv8.git
+git clone https://github.com/maponarooo/px4-ros2-gazebo-yolo.git
 ```
 ### Install PX4
 ```commandline
