@@ -12,9 +12,8 @@ from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Image
 import cv2 # OpenCV library
 from ultralytics import YOLO # YOLO library
 
-# Load the YOLOv8 model
-model = YOLO('yolov8m.pt')
-
+# Load the YOLOv11 model
+model = YOLO('yolo11n.pt')
 
 class ImageSubscriber(Node):
   """
@@ -50,9 +49,10 @@ class ImageSubscriber(Node):
     current_frame = self.br.imgmsg_to_cv2(data, desired_encoding="bgr8")
     image = current_frame
     # Object Detection
-    results = model.predict(image, classes=[0, 2])
+    results = model.predict(image, classes=[0, 2], imgsz=640, conf=0.3)
     img = results[0].plot()
     # Show Results
+    cv2.namedWindow('Detected Frame', flags=cv2.WINDOW_NORMAL)
     cv2.imshow('Detected Frame', img)    
     cv2.waitKey(1)
   
