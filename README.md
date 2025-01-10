@@ -2,12 +2,7 @@
 Aerial Object Detection using a Drone with PX4 Autopilot and ROS2. PX4 SITL and Gazebo Harmonic used for Simulation. YOLOv11 used for Object Detection.
 
 ## 본 교재는 쿼드(QUAD) 드론연구소의 오프라인 강의 교재로 무단 복제 및 사용을 금합니다.
-### 교육문의 : 031-680-1311, maponarooo@naver.com
-
-## Demo
-https://github.com/monemati/PX4-ROS2-Gazebo-YOLOv8/assets/58460889/fab19f49-0be6-43ea-a4e4-8e9bc8d59af9
-
-## Installation
+### 교육문의 : 031-680-1311, maponarooo@naver.com    
 
 ### Clone repository
 ```commandline
