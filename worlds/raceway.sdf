@@ -321,12 +321,12 @@
     </include>
     <include>
       <pose>279.64 -123.32 2.77 -0.019 -0.008 2.46</pose>
-      <uri>model://suv</uri>
+      <uri>model://SUV</uri>
       <name>suv_1</name>
     </include>
     <include>
       <pose>259.64 -123.32 2.77 -0.019 -0.008 -0.65</pose>
-      <uri>model://suv</uri>
+      <uri>model://SUV</uri>
       <name>suv_2</name>
     </include>
   </world>
