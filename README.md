@@ -5,7 +5,7 @@ Aerial Object Detection using a Drone with PX4 Autopilot and ROS2. PX4 SITL and 
 ### 교육문의 : 031-680-1311, maponarooo@naver.com    
 
 ### YouTube 강좌
-[![YouTube 강좌](https://img.youtube.com/vi/KdA61NceB-g/0.jpg)]([https://youtu.be/KdA61NceB-g])
+[![YouTube 강좌](https://img.youtube.com/vi/KdA61NceB-g/0.jpg)](https://youtu.be/KdA61NceB-g)
 
 ### Clone repository
 ```commandline
